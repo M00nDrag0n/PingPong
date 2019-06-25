@@ -10,12 +10,11 @@ Use the form to type in a number. The result should be a list of numbers that en
 
 ## Setup
 
-* Take this ( https://github.com/M00nDrag0n/CodingAssessment-2.git ) repository and clone it on Desktop
+* Take this ( https://github.com/M00nDrag0n/PingPong.git ) repository and clone it on Desktop
 * open the repository, you will see a file called "index.html". Double click "index.html".
 * The file should then show up on Google Chrome (or whatever browser you're using)
-* Fill in data and see what result you get!
+* Type a number into the form and see what happens!
 
-* Please note that this is a VERY simple quiz. Do not overthink your results.
 
 
 ## Known Bugs
