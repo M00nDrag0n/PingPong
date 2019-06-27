@@ -1,0 +1,9 @@
+#result {
+  display: none;
+}
+.btn {
+background: linear-gradient(to left, black, lightblue, blue, lightblue, white, lightblue, blue, skyblue, white, blue, lightblue, black, white, blue, lightblue, lightblue, blue, black, lightblue, black, blue, white, lightblue, blue, white, skyblue, royalblue, black, blue, lightblue, white, blue, lightblue, black, lightblue, blue, black);
+border-color: black;
+font-family: 'Spectral'; font-size: 20px;
+color: purple;
+}
