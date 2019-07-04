@@ -1,32 +1,36 @@
   var pingPong = function(number) {
 
-  for (var i=0; i<=number; i++) {
+  var zeroArray = [];
 
-    if (number % 15 === 0) {
-      return "ping";
+  for ( i=1; i<=number; i++) {
+    console.log(number);
+    if (i % 15 === 0) {
+      zeroArray.push("PingPong");
     }
-    else if  (number % 5 === 0) {
-      return "pong";
+    else if  (i % 5 === 0) {
+      zeroArray.push("pong");
     }
-    else if (number % 3 === 0) {
-      return "pingpong"
+    else if (i % 3 === 0) {
+      zeroArray.push("ping");
     }
     else {
-      return number;
+     zeroArray.push(i);
     }
-
   }
+  return zeroArray;
 }
 
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
     var userNumber = parseInt($("input#number").val());
-    console.log(userNumber);
     var result = pingPong(userNumber);
-    $("#result").append(result);
+    console.log(result);
 
+    result.forEach(function(parameter){
 
+      $("#result").append("<li>" + parameter + "</li>");
+    });
 
   });
   $("#result").show();
